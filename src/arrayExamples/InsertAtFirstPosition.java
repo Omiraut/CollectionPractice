@@ -1,4 +1,4 @@
-package arrayexamples;
+package arrayExamples;
 import java.util.*;
 
 public class InsertAtFirstPosition {
