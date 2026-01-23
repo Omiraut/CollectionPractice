@@ -1,4 +1,4 @@
-package ArrayExamples;
+package arrayExamples;
 import java.util.ArrayList;
 
 public class ExcerciseIterateList {

@@ -1,4 +1,4 @@
-package ArrayExamples;
+package arrayExamples;
 import java.util.*;
 public class CopyArrayList {
     public static void main(String[] args) {

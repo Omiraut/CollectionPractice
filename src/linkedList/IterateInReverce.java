@@ -1,9 +1,9 @@
-package LinkedList;
+package linkedList;
 
 import java.util.Iterator;
 import java.util.LinkedList;
 
-public class ItrateWithSpecificIndex {
+public class IterateInReverce {
     public static void main(String[] args) {
         LinkedList<String> list = new LinkedList<String>();
         list.add("Mogra");
@@ -12,8 +12,7 @@ public class ItrateWithSpecificIndex {
         list.add("Faisalabad");
         list.add("Quetta");
         list.add("Karachi");
-
-        Iterator<String> p = list.listIterator(2);
+        Iterator<String> p = list.descendingIterator();
 
         while(p.hasNext()){
             System.out.println(p.next());

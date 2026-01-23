@@ -1,21 +1,19 @@
-package LinkedList;
+package linkedList;
 
 import java.util.LinkedList;
 
-public class AppendElement {
+public class RemoveAll {
     public static void main(String[] args) {
         LinkedList<String> list = new LinkedList<String>();
-
         list.add("Rajat");
         list.add("Komal");
         list.add("Shubham");
-
-        // Adding element to the end of the list
-        // .add will add element at last
         list.add("Ravi");
+        list.add("Komal");
+        System.out.println("List before removing all");
         System.out.println(list);
-        for(String str : list){
-            System.out.println(str);
-        }
+        list.clear();
+        System.out.println("List after removing all");
+        System.out.println(list);
     }
 }
