@@ -1,4 +1,4 @@
-package arrayExamples;
+package arraylistexamples;
 import java.util.*;
 
 public class RetriveElementByIndex {

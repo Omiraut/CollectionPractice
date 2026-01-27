@@ -1,6 +1,7 @@
-package arrayExamples;
+package arraylistexamples;
 import java.util.ArrayList;
-public class SearchElement {
+
+public class ExcerciseIterateList {
     public static void main(String[] args) {
         ArrayList<String> list_String = new ArrayList<String>();
         list_String.add("Red");
@@ -8,9 +9,8 @@ public class SearchElement {
         list_String.add("Green");
         list_String.add("Yellow");
         list_String.add("Purple");
-
-        // Searching element
-        boolean isPresent = list_String.contains("Yellow");
-        System.out.println("Is Yellow present: "+isPresent);
+        for(String srt : list_String){
+            System.out.println(srt);
+        }
     }
 }

@@ -1,4 +1,4 @@
-package arrayExamples;
+package arraylistexamples;
 import java.util.ArrayList;
 public class PrintElementUsingPosition {
     public static void main(String[] args) {

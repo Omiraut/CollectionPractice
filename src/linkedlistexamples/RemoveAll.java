@@ -1,8 +1,8 @@
-package linkedList;
+package linkedlistexamples;
 
 import java.util.LinkedList;
 
-public class PrintPositionWithElement {
+public class RemoveAll {
     public static void main(String[] args) {
         LinkedList<String> list = new LinkedList<String>();
         list.add("Rajat");
@@ -10,10 +10,10 @@ public class PrintPositionWithElement {
         list.add("Shubham");
         list.add("Ravi");
         list.add("Komal");
-
-        for(int i = 0 ;i<list.size();i++){
-            System.out.println("Item on index "+i+" is "+list.get(i));
-        }
-        
+        System.out.println("List before removing all");
+        System.out.println(list);
+        list.clear();
+        System.out.println("List after removing all");
+        System.out.println(list);
     }
 }

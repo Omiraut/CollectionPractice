@@ -1,4 +1,4 @@
-package arrayExamples;
+package arraylistexamples;
 import java.util.*;
 public class RemoveElement {
     public static void main(String[] args) {

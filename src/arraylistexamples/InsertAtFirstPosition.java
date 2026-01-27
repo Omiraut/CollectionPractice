@@ -1,9 +1,7 @@
-package arrayExamples;
+package arraylistexamples;
 import java.util.*;
 
-public class CreatingArrayList {
-    // Create and print an array list
-
+public class InsertAtFirstPosition {
     public static void main(String[] args) {
         ArrayList<String> list_String = new ArrayList<String>();
         list_String.add("Red");
@@ -11,7 +9,12 @@ public class CreatingArrayList {
         list_String.add("Green");
         list_String.add("Yellow");
         list_String.add("Purple");
-        System.out.println(list_String);
-        
+
+        // Here we will insert value at 1st position
+        list_String.add(0,"Pink");
+
+        for(String str : list_String){
+            System.out.println(str);
+        }
     }
 }
