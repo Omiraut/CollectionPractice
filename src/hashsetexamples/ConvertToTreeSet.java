@@ -36,5 +36,6 @@ public class ConvertToTreeSet {
         for (String str : treeSet){
             System.out.println(str);
         }
+        sc.close();
     }
 }
