@@ -1,0 +1,16 @@
+package hashmappractice;
+
+import java.util.HashMap;
+
+public class MapSizeChecker {
+    public static void main(String[] args) {
+        HashMap<Integer, String> map = new HashMap<>();
+        map.put(1, "One");
+        map.put(2, "Two");
+        map.put(3, "Three");
+        map.put(4, "Four");
+        map.put(5, "Five");
+        System.out.println("Size of the HashMap: " + map.size());
+        
+    }
+}
