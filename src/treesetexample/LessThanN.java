@@ -11,7 +11,9 @@ public class LessThanN {
             treeSet.add(RandomNoGenerator.getRandomNumber(2));
     }
     System.out.println(treeSet);
-    Integer n = 58;
+    Integer n = RandomNoGenerator.getRandomNumber(2)/2+20;
+
+    System.out.println("Number less than "+n+" is : "+treeSet.headSet(n));
 
     System.out.println("Numbers less than "+n+" are : "+treeSet.floor(n));
 }
